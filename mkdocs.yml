@@ -1,0 +1,35 @@
+site_name: Docs template
+docs_dir: docs
+plugins:
+  - techdocs-core
+#   - search
+
+# repo_url: https://github.com/StrategicProductDevelopment/mkdocs-template
+# edit_uri: edit/main/docs/
+
+# theme:
+#   icon:
+#     edit: material/pencil
+#     view: material/eye
+#   features:
+#     - search.suggest
+#     - content.action.edit
+#     - content.action.view
+
+nav:
+  - "{App Name}": index.md
+  - API:
+    - Overview: api/overview.md
+    - Quickstart: api/quickstart.md
+  - SDK:
+    - "{Language} SDK": sdk/language-sdk/index.md
+  - Architecture: architecture.md
+  - "{Business process}":
+    - About {concept name}: business-process-a/index.md
+    - How to {task name}: business-process-a/how-to.md
+  - "{Business process}":
+    - About {concept name}: business-process-b/index.md
+    - How to {task name}: business-process-b/how-to.md  
+  - Glossary: glossary.md
+  - Release Notes: release-notes.md
+  - Contributing: contributing.md
