@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mkdocs-template-main
+  annotations:
+    github.com/project-slug: ango10/mkdocs-template-main
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
